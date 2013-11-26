@@ -55,3 +55,27 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "osx",        "2.2.0"
+
+# lib
+github "sysctl",      "1.0.0"
+github "wget",        "1.0.0" # via homebrew
+github "zsh",         "1.0.0" # via homebrew
+github "heroku",      "2.0.0"
+github "mysql",       "1.2.0" # via homebrew
+github "imagemagick", "1.2.1" # via homebrew
+github "postgresql",  "2.0.1" # via homebrew
+github "redis",       "2.0.0"
+
+# local application for develop
+github "sequel_pro",     "1.0.1"
+github "virtualbox",     "1.0.9"
+github "sublime_text_2", "1.1.2"
+github "chrome",         "1.1.2"
+github "cyberduck",      "1.0.1"
+
+# local application for utility
+github "dropbox",     "1.1.2"
+github "skype",       "1.0.7"
+github "hipchat",     "1.0.8"
+github "mou",         "1.1"
