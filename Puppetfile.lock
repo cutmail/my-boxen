@@ -69,6 +69,11 @@ GITHUBTARBALL
     imagemagick (1.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mou
   specs:
     mou (1.1.0)
@@ -114,6 +119,16 @@ GITHUBTARBALL
     postgresql (2.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pow
+  specs:
+    pow (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (2.0.0)
@@ -152,6 +167,16 @@ GITHUBTARBALL
   remote: boxen/puppet-sysctl
   specs:
     sysctl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
@@ -199,6 +224,7 @@ DEPENDENCIES
   hub (= 1.0.3)
   imagemagick (= 1.2.1)
   inifile (= 1.0.0)
+  macvim (= 1.0.0)
   mou (= 1.1)
   mysql (= 1.2.0)
   nginx (= 1.4.2)
@@ -208,6 +234,8 @@ DEPENDENCIES
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   postgresql (= 2.0.1)
+  pow (= 1.0.0)
+  python (= 1.1.1)
   redis (= 2.0.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
@@ -217,6 +245,8 @@ DEPENDENCIES
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
+  tmux (= 1.0.2)
+  vim (= 1.0.5)
   virtualbox (= 1.0.9)
   wget (= 1.0.0)
   xquartz (= 1.1.0)

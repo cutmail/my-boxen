@@ -79,7 +79,11 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'readline',
+      'gnu-sed',
+      'coreutils',
+      'tree'
     ]:
   }
 

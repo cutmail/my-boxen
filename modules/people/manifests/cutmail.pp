@@ -10,6 +10,11 @@ class people::cutmail {
     include mysql
     include imagemagick
     include postgresql
+    include pow
+    include python
+    include tmux
+    include macvim
+    include vim
 
     # local application for develop
     include sequel_pro
@@ -22,6 +27,7 @@ class people::cutmail {
     include sequel_pro
     include skype
     include hipchat
+    include dropbox
 
     package {
       'Kobito':

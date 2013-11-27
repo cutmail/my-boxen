@@ -66,6 +66,11 @@ github "mysql",       "1.2.0" # via homebrew
 github "imagemagick", "1.2.1" # via homebrew
 github "postgresql",  "2.0.1" # via homebrew
 github "redis",       "2.0.0"
+github "pow",         "1.0.0"
+github "python",      "1.1.1"
+github "macvim",      "1.0.0"
+github "vim",         "1.0.5"
+github "tmux",        "1.0.2"
 
 # local application for develop
 github "sequel_pro",     "1.0.1"
