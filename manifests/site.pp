@@ -83,7 +83,9 @@ node default {
       'readline',
       'gnu-sed',
       'coreutils',
-      'tree'
+      'tree',
+      'libxml2',
+      'nkf'
     ]:
   }
 

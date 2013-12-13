@@ -38,7 +38,6 @@ github "dnsmasq",    "1.0.0"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.2.5"
-github "go",         "1.0.0"
 github "homebrew",   "1.5.1"
 github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
@@ -66,7 +65,7 @@ github "mysql",       "1.2.0" # via homebrew
 github "imagemagick", "1.2.1" # via homebrew
 github "postgresql",  "2.0.1" # via homebrew
 github "redis",       "2.0.0"
-github "pow",         "1.0.0"
+github "nvm",         "1.0.0"
 github "python",      "1.1.1"
 github "macvim",      "1.0.0"
 github "vim",         "1.0.5"

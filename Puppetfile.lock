@@ -39,11 +39,6 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
-  remote: boxen/puppet-go
-  specs:
-    go (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
     heroku (2.0.0)
@@ -94,6 +89,11 @@ GITHUBTARBALL
     nodejs (3.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nvm
+  specs:
+    nvm (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -117,11 +117,6 @@ GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
     postgresql (2.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-pow
-  specs:
-    pow (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-python
@@ -217,7 +212,6 @@ DEPENDENCIES
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
-  go (= 1.0.0)
   heroku (= 2.0.0)
   hipchat (= 1.0.8)
   homebrew (= 1.5.1)
@@ -229,12 +223,12 @@ DEPENDENCIES
   mysql (= 1.2.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
+  nvm (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 2.2.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   postgresql (= 2.0.1)
-  pow (= 1.0.0)
   python (= 1.1.1)
   redis (= 2.0.0)
   repository (= 2.2.0)

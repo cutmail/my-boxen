@@ -29,6 +29,12 @@ class people::cutmail {
     include hipchat
     include dropbox
 
+    # readlineの接続先直す | iii ThreeTreesLight
+    # http://threetreeslight.com/post/58786169382/readline
+    exec{ "replace_readline_of_ruby" :
+      command => "find /opt/boxen/rbenv -name readline.bundle -exec install_name_tool -change /usr/lib/libedit.3.dylib `find /opt/boxen -name libreadline.dylib` {} \\;",
+    }
+
     package {
       'Kobito':
         source   => "http://kobito.qiita.com/download/Kobito_v1.8.4.zip",
